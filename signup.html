@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Signup Form</title>
+   <style>
+    #form{
+       
+        width: 40%;
+        margin-top: 40px;
+        margin-left: 150px;
+    }
+    body{
+        background-color: azure;
+    }
+   </style>
+</head>
+<body>
+    <form id="form">
+        <fieldset>
+            <legend>Signup Form</legend>
+            <label for="name">User Name:</label>&nbsp;
+            <input type="text" name="name" placeholder="Enter your user name" required><br>
+            <label for="pass">Password:</label>&nbsp;
+            <input type="password" min="4" max="9" name="pass" placeholder="Enter your password" required><br>
+            <label for="email">Email:</label>&nbsp;
+            <input type="email" name="email" placeholder="Enter your Email" required><br>
+            <label for="number">Mobile number (Optional)</label>&nbsp;
+            <input type="number" name="number"  placeholder="Enter your number"><br>
+            <label for="dob">DOB:</label>&nbsp;
+            <input type="text" name="dob" placeholder="Enter your DOB" required><br>
+            <input type="checkbox" name="check" required>
+            <label for="check">I agree to the TOS, a required checkbox input field</label>
+            <br>
+            <input type="button" value="Submit">
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
